@@ -1,9 +1,9 @@
 import "./App.css";
 import React from "react";
-// import Languages from "./components/Languages";
+// import Languages from "./func-components/Languages";
 import ShopContextProvider from "./contexts/ShopContext";
-import ShowProducts from "./components/ShowProducts";
-import Nav from "./components/Nav";
+import ShowProducts from "./func-components/ShowProducts";
+import Nav from "./func-components/Nav";
 
 function App() {
   return (

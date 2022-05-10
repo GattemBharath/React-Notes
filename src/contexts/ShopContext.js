@@ -13,9 +13,13 @@ class ShopContextProvider extends Component {
     ],
   };
 
+  doSomething = () => {
+    return "Please do something my dear!!!";
+  };
+
   render() {
     return (
-      <ShopContext.Provider value={{ ...this.state }}>
+      <ShopContext.Provider value={{ ...this.state, doSome: this.doSomething }}>
         {this.props.children}
       </ShopContext.Provider>
     );
