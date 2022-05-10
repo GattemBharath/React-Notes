@@ -7,7 +7,7 @@ class Nav extends Component {
     const { products } = this.context;
     return (
       <div>
-        <h1>We have {products.length} products in our store</h1>
+        <h1>We have {products.length} in our store</h1>
       </div>
     );
   }
